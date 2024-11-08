@@ -39,7 +39,7 @@ class CustomBuildPy(build_py):
 
 
 setup(
-    name='textworld',
+    name='balrog_textworld',
     version=open(os.path.join("textworld", "version.py")).readlines()[0].split("=")[-1].strip("' \n"),
     author='Microsoft Textworld',
     cmdclass={
